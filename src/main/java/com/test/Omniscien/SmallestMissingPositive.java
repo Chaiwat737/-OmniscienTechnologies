@@ -13,7 +13,7 @@ public class SmallestMissingPositive {
         String result = Arrays.toString(arr);
 
         System.out.println("int[] arr : "+ result);
-        // เก็บค่าจาก array ลงใน set
+     
         for (int num : arr) {
             if (num > 0) {
                 set.add(num);
@@ -38,4 +38,5 @@ public class SmallestMissingPositive {
         System.out.println("Smallest missing positive number: " + result);
     }
 }
+
 
