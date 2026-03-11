@@ -15,8 +15,8 @@ import java.io.FileWriter;
 
 public class Question1 {
     public static void main(String[] args) {
-        String inputXml = args[0];   // path XML
-        String outputTxt = args[1];  // path output
+        String inputXml = args[0];  
+        String outputTxt = args[1];  
 
         try {
             File file = new File(inputXml);
@@ -55,3 +55,4 @@ public class Question1 {
         }
     }
 }
+
