@@ -22,7 +22,7 @@ public class SmallestMissingPositive {
 
         int smallest = 1;
 
-        // หาเลขบวกที่หายไป
+
         while (set.contains(smallest)) {
             smallest++;
         }
@@ -38,5 +38,6 @@ public class SmallestMissingPositive {
         System.out.println("Smallest missing positive number: " + result);
     }
 }
+
 
 
